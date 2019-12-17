@@ -6,6 +6,7 @@
 #  \___/____/____/··
 #  ·················
 */
+
 html,body{
   padding:0px;
   margin:0px;
@@ -39,4 +40,16 @@ nav li a{
 
 nav li a:hover{
   color: white;
+}
+
+
+/* Main section */
+
+.main-section {
+  padding:15%;
+  text-align:center;
+}
+
+.products{
+  background-image:url(../images/yay.gif);
 }
