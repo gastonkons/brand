@@ -51,5 +51,30 @@ nav li a:hover{
 }
 
 .products{
-  background-image:url(../images/yay.gif);
+  background-image:url("../images/curve.png");
+  height:80px;
+  background-size:cover;
+  background-position: center top;
+  margin:0 auto;
+  padding:15%;
+  display:flex;
+}
+
+.product {
+  padding:10px;
+  margin-top:-240px;
+}
+
+.product .content {
+  background-color: white;
+  padding:15px;
+  box-shadow: -2px 3px 3px 0px #e6e6e6;
+}
+
+.img-content {
+  text-align:center;
+}
+
+.main-button {
+  background-color: #7ACC2D;
 }
