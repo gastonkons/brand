@@ -7,20 +7,37 @@
 #  ·················
 */
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+/* Variables */
+:root{
+  --green-color:#7ACC2D;
+  --white-color:#fff;
+  --black-color:#313337;
+/* Tipografia */
+  --normal:12px;
+/* Espaciado */
+  --ten-px:10px;
+/* Box shadow */
+  --box-shadow:0px 0px 2px 1px #e6e5e9;
+}
+
 html,body{
   padding:0px;
   margin:0px;
-  font-size: 12px;
-  font-family: Helvetica;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav{
   display: flex;
-  background-color: #7ACC2D;
-  padding: 10px;
-  color: white;
+  background-color: var(--green-color);
+  padding: var(--ten-px);
+  color: var(--white-color);
   justify-content: space-between;
   align-items: center;
+  box-shadow: -0 2px 4px rgba(0,0,0, .3) ;
+
 }
 
 nav ul{
@@ -34,47 +51,70 @@ nav li{
 }
 
 nav li a{
-  color: black;
+  color: var(--black-color);
   text-decoration: none;
 }
 
 nav li a:hover{
-  color: white;
+  color: var(--white-color);
 }
 
 
 /* Main section */
 
 .main-section {
-  padding:15%;
+  padding:8% 25% 15% 25%;
   text-align:center;
 }
 
+.main-section h1 {
+  font-size:30px;
+}
+
 .products{
+  background-image:url("https://doc-08-3s-docs.googleusercontent.com/docs/securesc/gtnn1vl3n4gi9kfmmjnvk44hr6ju5tl3/0au9ehsehefvuvnte9r8vu2i6o8qpa0u/1576900800000/17570599958312533166/17570599958312533166/1oFnpZJOeKyMn-w35xmSkCPONBp5IcA5l?authuser=0");
   background-image:url("../images/curve.png");
-  height:80px;
+  height:100px;
   background-size:cover;
   background-position: center top;
-  margin:0 auto;
-  padding:15%;
+  padding:15% ;
   display:flex;
+  margin: 0 auto;
 }
 
 .product {
-  padding:10px;
-  margin-top:-240px;
+  margin-top:-40%;
+  padding:var(--ten-px);
+  width:50%;
+
 }
 
 .product .content {
-  background-color: white;
+  background-color: var(--white-color);
   padding:15px;
-  box-shadow: -2px 3px 3px 0px #e6e6e6;
+  width:70%;
+
+  box-shadow: var(--box-shadow);
 }
 
 .img-content {
   text-align:center;
+  
 }
 
 .main-button {
-  background-color: #7ACC2D;
+  background-color: var(--green-color);
+  width:100%;
+  padding:var(--ten-px);
+  font-size:var(--normal);
+  color:var(--white-color);
+  border:0;
+  cursor:pointer;
+  border-radius:var(--ten-px);
+  font-weight: 700;
+}
+
+.main-button:hover {
+  background-color:#5e9e22;
+
 }
