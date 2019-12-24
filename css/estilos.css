@@ -16,6 +16,8 @@
   --black-color:#313337;
 /* Tipografia */
   --normal:12px;
+  --high: 17px;
+  --veryhigh:30px;
 /* Espaciado */
   --ten-px:10px;
 /* Box shadow */
@@ -36,7 +38,7 @@ nav{
   color: var(--white-color);
   justify-content: space-between;
   align-items: center;
-  box-shadow: -0 2px 4px rgba(0,0,0, .3) ;
+  box-shadow: -0 1px 4px rgba(0,0,0, .15) ;
 
 }
 
@@ -68,33 +70,36 @@ nav li a:hover{
 }
 
 .main-section h1 {
-  font-size:30px;
+  font-size:var(--veryhigh);
 }
 
 .products{
   background-image:url("https://doc-08-3s-docs.googleusercontent.com/docs/securesc/gtnn1vl3n4gi9kfmmjnvk44hr6ju5tl3/0au9ehsehefvuvnte9r8vu2i6o8qpa0u/1576900800000/17570599958312533166/17570599958312533166/1oFnpZJOeKyMn-w35xmSkCPONBp5IcA5l?authuser=0");
   background-image:url("../images/curve.png");
-  height:100px;
+  height:50px;
   background-size:cover;
   background-position: center top;
-  padding:15% ;
+  padding:10% 20% ;
   display:flex;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .product {
-  margin-top:-40%;
+  margin-top:-38%;
   padding:var(--ten-px);
-  width:50%;
-
 }
 
 .product .content {
   background-color: var(--white-color);
   padding:15px;
-  width:70%;
-
   box-shadow: var(--box-shadow);
+  width:230px;
+
+}
+
+.product .content h2 {
+  font-size:var(--high);
 }
 
 .img-content {
@@ -106,7 +111,7 @@ nav li a:hover{
   background-color: var(--green-color);
   width:100%;
   padding:var(--ten-px);
-  font-size:var(--normal);
+  font-size:var(--high);
   color:var(--white-color);
   border:0;
   cursor:pointer;
@@ -117,4 +122,38 @@ nav li a:hover{
 .main-button:hover {
   background-color:#5e9e22;
 
+}
+
+.description-content {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:180px 50px 60px 50px;
+}
+
+.description {
+  width:12%;
+  padding: 0 80px;
+}
+
+.description h2 {
+  font-size: var(--high);
+  text-align:center;
+  margin-top:30px;
+}
+
+.description-image {
+  text-align:center;
+}
+
+.description-image img {
+  width:120px;
+}
+
+#image-b1 {
+  width:130px;
+}
+
+hr {
+  border:1px solid rgba(0,0,0,.1);
 }
