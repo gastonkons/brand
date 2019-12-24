@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px) {
+    .products {
+        display:inherit;
+        height: auto;
+        text-align:center;
+        padding:inherit auto;
+        width:inherit;
+        /* background-image: none; */
+        /* background-color:#EEEEEE; */
+    }
+
+    .product {
+        margin-top:auto;
+        width:inherit;
+        
+        
+    }
+
+    .content {
+        width:inherit;
+        margin: 0 auto;
+    }
+
+    
+    .main-section {
+        padding:6%;
+    }
+
+    .description-content {
+        display:inherit;
+        padding:10px auto;
+    }
+
+    .description {
+        width:100%;
+        padding:0;
+        padding-bottom:50px;
+    }
+
+    .description p {
+        margin:0 40px;
+        text-align: center;
+    }
+}
