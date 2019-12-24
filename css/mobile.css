@@ -3,7 +3,7 @@
         display:inherit;
         height: auto;
         text-align:center;
-        padding:inherit auto;
+        padding:5%;
         width:inherit;
         /* background-image: none; */
         /* background-color:#EEEEEE; */
@@ -40,5 +40,16 @@
     .description p {
         margin:0 40px;
         text-align: center;
+    }
+
+    .mentions-content {
+        display:inherit;
+    }
+
+    .mention {
+        width:70%;
+        margin:0 auto;
+        margin-bottom:10px;
+
     }
 }
